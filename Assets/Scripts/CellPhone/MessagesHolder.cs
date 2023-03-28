@@ -10,7 +10,14 @@ public class MessagesHolder : MonoBehaviour
     public bool clickable = true;
     private int _index = 0;
     private float _scrollSpeed = 5f;
-    private int _slideDistance = 120;
+    private int _slideDistance = 40;
+
+    private RectTransform rect;
+
+    void Awake()
+    {
+        rect = GetComponent<RectTransform>();
+    }
 
     public void StartAnswerSlide()
     {
@@ -23,12 +30,14 @@ public class MessagesHolder : MonoBehaviour
     }
     private IEnumerator Slide(bool answer)
     {
-        var initPos = transform.position.y;
-        var endPos = transform.position.y + _slideDistance;
+        var initPos = rect.position.y;
+        Debug.Log("Init pos: " + initPos);
+        var endPos = rect.position.y + _slideDistance;
+        Debug.Log("Init pos: " + endPos);
 
-        while(transform.position.y < endPos)
+        while(rect.position.y < endPos)
         {
-            transform.Translate(Vector3.up * _scrollSpeed);
+            rect.Translate(Vector3.up * _scrollSpeed);
             yield return new WaitForFixedUpdate();
         }
 
