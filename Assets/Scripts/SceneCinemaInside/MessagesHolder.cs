@@ -134,7 +134,7 @@ namespace Cinema
 
         private void NextScene()
         {
-            SceneManager.LoadScene(1);
+            SceneManager.LoadScene(3);
         }
 
         private void ToggleQuestionsChoices(bool multipleChoices)

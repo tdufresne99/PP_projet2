@@ -17,4 +17,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/CinemaPhoneConvo.unity
     guid: 9241a7a2e74d9754596a69dcb41591d7
+  - enabled: 1
+    path: Assets/Scenes/BFHouse.unity
+    guid: dfad7fd6bc1005a41b143157d411a4fc
+  - enabled: 1
+    path: Assets/Scenes/BFHousePhoneConvo.unity
+    guid: e4d1634bb4c7109419c19e9eabe7523f
   m_configObjects: {}
