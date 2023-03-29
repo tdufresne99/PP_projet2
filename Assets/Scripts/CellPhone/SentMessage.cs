@@ -5,18 +5,22 @@ using TMPro;
 
 public class SentMessage : MonoBehaviour
 {
+    [SerializeField] private string _truthText;
+    [SerializeField] private string _lieText;
+    private MessagesHolder _messageHolderCS;
     private TextMeshProUGUI _text;
     void Awake()
     {
+        _messageHolderCS = GetComponentInParent<MessagesHolder>();
         _text = GetComponentInChildren<TextMeshProUGUI>();
 
         if(_text == null) Debug.LogWarning("No text found...");
-        else Debug.LogWarning(_text);
+        AsignText();
     }
 
-    public void AsignText(string textValue)
+    private void AsignText()
     {
-        _text.text = textValue;
+        if(_messageHolderCS.Truth)_text.text = _truthText;
+        else _text.text = _lieText;
     }
-    
 }

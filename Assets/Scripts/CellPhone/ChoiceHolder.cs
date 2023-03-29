@@ -35,7 +35,7 @@ public class ChoiceHolder : MonoBehaviour
     {
         "C'est bon, j'ai compris, Tu es avec Chris. Mais tu devrais me prévenir à l'avance que tu allais le voir. Je ne suis pas très à l'aise avec toi en sa compagnie.",
         "Mais j'aimerais quand même être au courant à l'avance.",
-        "On se parle plus tard."
+        "On se parle plus tard..."
     };
     private string[] questionsLie = new string[]
     {
