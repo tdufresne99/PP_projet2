@@ -9,18 +9,12 @@ EditorBuildSettings:
     path: 
     guid: 00000000000000000000000000000000
   - enabled: 1
-    path: Assets/Scenes/Scene1.unity
-    guid: e3768e41df6f04c4fa8c08abb258e563
+    path: Assets/Scenes/CinemaOutside.unity
+    guid: d6afe930950c84b40bd95be1cb89d17d
   - enabled: 1
-    path: Assets/Scenes/Scene2.unity
-    guid: 1ccc0437bdbadd94bab07840a86f553a
+    path: Assets/Scenes/CinemaInside.unity
+    guid: 78f5050a9123fbd4c90606fcd24f3964
   - enabled: 1
-    path: Assets/Scenes/Scene3.unity
-    guid: 015df29e8fe7de64c9cd146c1059a098
-  - enabled: 1
-    path: Assets/Scenes/Scene4.unity
-    guid: 729aa53f2fe7f3940b787f6307bf15c6
-  - enabled: 1
-    path: Assets/Scenes/Scene5.unity
-    guid: be07b7608e9e3c844a6ec879b12a8381
+    path: Assets/Scenes/CinemaPhoneConvo.unity
+    guid: 9241a7a2e74d9754596a69dcb41591d7
   m_configObjects: {}
