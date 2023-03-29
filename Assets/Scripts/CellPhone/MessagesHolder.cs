@@ -7,16 +7,31 @@ public class MessagesHolder : MonoBehaviour
 {
     [SerializeField] private GameObject[] _answerBoxes;
     [SerializeField] private GameObject[] _questionBoxes;
-    public bool clickable = true;
+    public bool clickable = false;
     private int _index = 0;
-    private float _scrollSpeed = 5f;
-    private int _slideDistance = 40;
+    private float _scrollSpeed = 1000;
+    private float _slideDistance = 250f;
 
     private RectTransform rect;
 
     void Awake()
     {
         rect = GetComponent<RectTransform>();
+        rect.anchorMin = new Vector2(0.5f, 0.5f);
+        rect.anchorMax = new Vector2(0.5f, 0.5f);
+        rect.pivot = new Vector2(0.5f, 0.5f);
+
+    }
+
+    void Start()
+    {
+        ShowNextQuestion();
+    }
+
+
+    public void MakeClickable()
+    {
+        clickable = true;
     }
 
     public void StartAnswerSlide()
@@ -24,37 +39,43 @@ public class MessagesHolder : MonoBehaviour
         clickable = false;
         StartCoroutine(Slide(true));
     }
+
     public void StartQuestionSlide()
     {
         StartCoroutine(Slide(false));
     }
+
     private IEnumerator Slide(bool answer)
     {
         var initPos = rect.position.y;
-        Debug.Log("Init pos: " + initPos);
-        var endPos = rect.position.y + _slideDistance;
-        Debug.Log("Init pos: " + endPos);
+        var endPos = initPos + _slideDistance;
+        var newPos = rect.position;
 
-        while(rect.position.y < endPos)
+        while (newPos.y < endPos)
         {
-            rect.Translate(Vector3.up * _scrollSpeed);
+            newPos += Vector3.up * _scrollSpeed * Time.deltaTime;
+            rect.position = newPos;
             yield return new WaitForFixedUpdate();
         }
 
-        if(answer) ShowAnswer();
+
+        if (answer) ShowAnswer();
         else ShowNextQuestion();
     }
 
-    private void ShowAnswer()
+    public void ShowAnswer()
     {
+        Debug.Log("Show answer");
         _answerBoxes[_index].SetActive(true);
+        _index++;
         Invoke("StartQuestionSlide", 3f);
     }
 
     private void ShowNextQuestion()
     {
         _questionBoxes[_index].SetActive(true);
-        _index++;
         clickable = true;
     }
+
+    public int Index => _index;
 }

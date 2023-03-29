@@ -6,15 +6,22 @@ namespace SceneSalleCinema
 {
     public class Choice : MonoBehaviour
     {
-        [SerializeField] private MessagesHolder messagesHolder;
+        [SerializeField] private MessagesHolder _messagesHolderCS;
         private string _text;
+
         void Awake()
         {
-            // _text = GetComponent<>
+
         }
+
         public void OnChoiceClick()
         {
-            if(messagesHolder.clickable) messagesHolder.StartAnswerSlide();
+            if (_messagesHolderCS.clickable) 
+            {
+                if(_messagesHolderCS.Index == 0) _messagesHolderCS.ShowAnswer();
+                else _messagesHolderCS.StartAnswerSlide();
+
+            }
         }
     }
 }
