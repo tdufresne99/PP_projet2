@@ -3,7 +3,7 @@ using System;
 using UnityEngine;
 using TMPro;
 
-namespace BFHouse
+namespace Shop
 {
     public class TypeWriterEffect : MonoBehaviour
     {

@@ -44,7 +44,7 @@ namespace BFHouse
             if(_dialogueIndex > _dialogue.Length - 1)
             {
                 _fadeOut.SetActive(true);
-                NextScene();
+                Invoke("NextScene", 2.2f);
                 return;
             }
             var dialogue = _dialogue[_dialogueIndex];
@@ -52,7 +52,7 @@ namespace BFHouse
             _dialogueIndex++;
         }
 
-        private void NextScene()
+        public void NextScene()
         {
             SceneManager.LoadScene(4);
         }
