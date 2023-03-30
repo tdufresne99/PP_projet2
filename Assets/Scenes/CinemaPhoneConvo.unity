@@ -1818,9 +1818,8 @@ PrefabInstance:
     - target: {fileID: 1626468153462718265, guid: 3a475ee7ea245d84baea112fb8ebef1f,
         type: 3}
       propertyPath: m_text
-      value: "C'est bon, j'ai compris, Tu es avec Chris. Mais tu devrais me pr\xE9venir
-        \xE0 l'avance que tu allais le voir. Je ne suis pas tr\xE8s \xE0 l'aise avec
-        toi en sa compagnie."
+      value: "C'est bon, j'ai compris, Tu es avec Chris. Mais tu devais me pr\xE9venir
+        \xE0 l'avance que tu allais le voir."
       objectReference: {fileID: 0}
     - target: {fileID: 1626468153462718265, guid: 3a475ee7ea245d84baea112fb8ebef1f,
         type: 3}
@@ -1831,6 +1830,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_fontSizeBase
       value: 27
+      objectReference: {fileID: 0}
+    - target: {fileID: 1626468153462718265, guid: 3a475ee7ea245d84baea112fb8ebef1f,
+        type: 3}
+      propertyPath: m_VerticalAlignment
+      value: 512
       objectReference: {fileID: 0}
     - target: {fileID: 1626468153462718270, guid: 3a475ee7ea245d84baea112fb8ebef1f,
         type: 3}
@@ -2376,9 +2380,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3bc868ca998f95f47b3117b19a61ec33, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _truthText: "C'est bon, j'ai compris, Tu es avec Chris. Mais tu devrais me pr\xE9venir
-    \xE0 l'avance que tu allais le voir. Je ne suis pas tr\xE8s \xE0 l'aise avec
-    toi en sa compagnie."
+  _truthText: "C'est bon, j'ai compris, Tu es avec Chris. Mais tu devais me pr\xE9venir
+    \xE0 l'avance que tu allais le voir."
   _lieText: "D'accord. Comment \xE7a se passe, le film est bien ?"
 --- !u!1 &1214384653 stripped
 GameObject:
