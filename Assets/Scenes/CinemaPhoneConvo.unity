@@ -2519,8 +2519,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Antoine
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 6c7d70d7f44547348b86441c5fbfcea3, type: 2}
-  m_sharedMaterial: {fileID: 2470868667387583431, guid: 6c7d70d7f44547348b86441c5fbfcea3,
+  m_fontAsset: {fileID: 11400000, guid: 29226bbade08da642b7fb8d5f9504933, type: 2}
+  m_sharedMaterial: {fileID: -1932794896396772953, guid: 29226bbade08da642b7fb8d5f9504933,
     type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
