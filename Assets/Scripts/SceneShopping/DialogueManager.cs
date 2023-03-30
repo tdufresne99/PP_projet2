@@ -20,10 +20,10 @@ namespace Shopping
             "Chris: Alors, as-tu une idée de ce que tu veux offrir à ton copain pour son anniversaire ?",
             "Emma: Pas vraiment, je ne sais pas quoi acheter.",
             "Chris: Hmm, pourquoi ne pas lui acheter quelque chose qu'il aime ? Peut-être un nouveau jeu vidéo ou un livre sur son sujet préféré.",
-            "Emma: Il a déjà tellement de jeux vidéo et je ne suis pas sûre de connaître son sujet préféré.",
+            "Emma: Pour être honnête je ne sais pas vraiment ce qu'il aime.",
             "Chris: Hmm, d'accord. Peut-être que tu pourrais lui acheter quelque chose qu'il peut utiliser tous les jours, comme une nouvelle montre ou un porte-monnaie élégant.",
-            "Emma: C'est une bonne idée, mais je ne suis pas sûre de savoir quel style il préfère.",
-            "Chris: Je comprends. Et si on allait faire un tour dans une boutique de cadeaux pour hommes ? Ils ont souvent une grande variété de choix et pourraient t'aider à trouver quelque chose qui convient parfaitement à ton copain.",
+            "Emma: C'est une bonne idée, mais je ne suis pas sûre de savoir quel style.",
+            "Chris: Je comprends. Et si on allait faire un tour dans une boutique de cadeaux pour hommes ? Ils ont souvent une grande variété de choix et ça pourrait t'aider à trouver quelque chose qui convient parfaitement à ton copain.",
         };
 
         private int _dialogueIndex = 0;
