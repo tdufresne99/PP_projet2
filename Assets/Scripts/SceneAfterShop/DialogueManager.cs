@@ -14,38 +14,32 @@ namespace AfterShop
         [SerializeField] private GameObject _fadeOut;
         [SerializeField] private TypeWriterEffect _text;
         [SerializeField] private bool _playerChoseTruth;
-        private string _firstDialogue = "Copain: Salut chérie, comment s'est passée ta journée aujourd'hui ? ";
+        private string _firstDialogue = "Antoine : Salut chérie, comment s'est passée ta journée aujourd'hui ? ";
 
         [SerializeField]
         private string[] _dialogueTruth = new string[]
         {
-            "Copain: Salut chérie, comment s'est passée ta journée aujourd'hui ? ",
-            "Antoine : Non, rien de particulier. Je voulais juste te parler d'un truc.",
-            "Emma: Ok, de quoi s'agit-il ?",
-            "Antoine : Pour être bien honnête avec toi, ton ami, Chris. Je sais qu'il est important pour toi, mais je ne me sens pas à l'aise quand tu passes du temps avec lui.",
-            "Emma: Pourquoi pas ? Chris est un ami depuis longtemps.",
-            "Antoine : Je ne veux juste pas que tu sois avec lui, il y a quelque chose dans sa façon d'agir qui me dérange. Je n'ai pas confiance en lui.",
-            "Emma: C'est injuste, tu ne le connais pas vraiment, tu ne l'as jamais donné une chance.",
-            "Antoine : Tu ne sais pas ce que je vois., je veux te protéger. Je ne veux pas que tu sois influencée négativement par quelqu'un qui ne me semble pas fiable.",
-            "Emma: Tu sais, Chris n'a rien fait de mal. Il m'écoute, me soutient, me rend heureuse. Il est plus qu'un ami, il est comme un frère pour moi.",
-            "Antoine : Je voudrais que tu me dises quand tu es avec lui et que tu évites de le voir le plus possible. Je ne veux pas que tu sois blessée, tu es trop importante pour moi.",
-            "Emma: D'accord.",
+            "Emma : Salut, ça va. J'ai fait des courses avec mon ami aujourd'hui.",
+            "Antoine : Ah bon ? Avec quel ami ?",
+            "Emma : Avec Chris.",
+            "Antoine : Chris ?! Je t'ai dit que je ne voulais pas que tu le revois et que même si tu devais absolument le voir, je t'ai que je voulais que tu me le dises !",
+            "Emma : Je suis désolée, je ne voulais pas te contrarier. Mais je voulais être honnête avec toi et te dire la vérité.",
+            "Antoine : Je suis content que tu sois honnête avec moi. Mais je ne veux pas que tu le revois.",
+            "Emma : Je suis vraiment désolée, promis. J'espère que tu peux me pardonner.",
+            "Antoine : Bien sûr, je te pardonne, puisque tu me dis que tu ne vas pas le revoir...",
         };
 
         [SerializeField]
         private string[] _dialogueLie = new string[]
         {
-            "Emma: Chéri, qu'est-ce qui ne va pas ? Tu as l'air soucieux.",
-            "Antoine : Non, rien de particulier. Je voulais juste te parler d'un truc.",
-            "Emma: Ok, de quoi s'agit-il ?",
-            "Antoine : Pour être bien honnête avec toi, ton ami, Chris. Je sais qu'il est important pour toi, mais je ne me sens pas à l'aise quand tu passes du temps avec lui.",
-            "Emma: Pourquoi pas ? Chris est un ami depuis longtemps.",
-            "Antoine : Je ne veux juste pas que tu sois avec lui, il y a quelque chose dans sa façon d'agir qui me dérange. Je n'ai pas confiance en lui.",
-            "Emma: C'est injuste, tu ne le connais pas vraiment, tu ne l'as jamais donné une chance.",
-            "Antoine : Tu ne sais pas ce que je vois., je veux te protéger. Je ne veux pas que tu sois influencée négativement par quelqu'un qui ne me semble pas fiable.",
-            "Emma: Tu sais, Chris n'a rien fait de mal. Il m'écoute, me soutient, me rend heureuse. Il est plus qu'un ami, il est comme un frère pour moi.",
-            "Antoine : Je voudrais que tu me dises quand tu es avec lui et que tu évites de le voir le plus possible. Je ne veux pas que tu sois blessée, tu es trop importante pour moi.",
-            "Emma: D'accord.",
+            "Emma: Salut, ça va. Rien de spécial, j'ai juste fait quelques courses.",
+            "Antoine : D'accord, avec qui es-tu allée ?",
+            "Emma : Oh, j'y suis allée toute seule.",
+            "Antoine : Vraiment ? Tu n'es pas allée avec Chris ?",
+            "Emma : Non, pourquoi est-ce que tu dis ça ?",
+            "Antoine : Oh, juste une intuition. Mais bon, peu importe. Comment s'est passée ta journée de shopping ?",
+            "Emma : C'était bien, j'ai trouvé quelques trucs sympas. Et toi?",
+            "Antoine : Rien de spécial, j'étais en train de faire le souper, vient t'installer.",
         };
 
         private string[] _dialogue;
@@ -109,7 +103,7 @@ namespace AfterShop
 
         public void NextScene()
         {
-            SceneManager.LoadScene(4);
+            SceneManager.LoadScene("Coffee");
         }
 
         public void AssignPlayerChoice(bool isTruth)

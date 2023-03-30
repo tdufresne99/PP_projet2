@@ -24,6 +24,33 @@ EditorBuildSettings:
     path: Assets/Scenes/BFHousePhoneConvo.unity
     guid: e4d1634bb4c7109419c19e9eabe7523f
   - enabled: 1
+    path: Assets/Scenes/Shopping.unity
+    guid: 241ad43617c3cdf46a4c983845b8d4a1
+  - enabled: 1
     path: Assets/Scenes/AfterShopping.unity
     guid: ba82cb43482a38b49ad3e020166b3490
+  - enabled: 1
+    path: Assets/Scenes/Coffee.unity
+    guid: e0edc81c2a7bb924399cc7f45056d1a8
+  - enabled: 1
+    path: Assets/Scenes/AfterCoffeeYes.unity
+    guid: aed05d06826aa1a48a8002c61271b437
+  - enabled: 1
+    path: Assets/Scenes/AfterCoffeeNo.unity
+    guid: 83232d6a5f06d174cb71e7b7eef46efc
+  - enabled: 1
+    path: Assets/Scenes/EndingBF.unity
+    guid: 20a4d00c703907b43aab9289a791f1eb
+  - enabled: 1
+    path: Assets/Scenes/EndingFight.unity
+    guid: 408217368587b584eba92a373b205fea
+  - enabled: 1
+    path: Assets/Scenes/EndingFriend.unity
+    guid: cb14e0ff9d5f73b49badd00e59ca5f74
+  - enabled: 1
+    path: Assets/Scenes/EndingAlone.unity
+    guid: 68ae0ce88caeb474bbd1b02eb216fdf1
+  - enabled: 1
+    path: Assets/Scenes/Menu.unity
+    guid: d50dfe9ea5a67ea4a9d0a182d315be70
   m_configObjects: {}

@@ -5,7 +5,7 @@ using UnityEngine;
 using TMPro;
 using UnityEngine.SceneManagement;
 
-namespace Shop
+namespace Shopping
 {
     public class MessagesHolder : MonoBehaviour
     {
@@ -115,7 +115,7 @@ namespace Shop
 
         private void NextScene()
         {
-            SceneManager.LoadScene(1);
+            SceneManager.LoadScene("CinemaInside");
         }
 
         public int Index

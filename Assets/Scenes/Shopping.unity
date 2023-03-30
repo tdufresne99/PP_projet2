@@ -862,14 +862,36 @@ MonoBehaviour:
   m_GameObject: {fileID: 783520394}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0bf2e3d02fa10ec4495b0c2cb3c552a7, type: 3}
+  m_Script: {fileID: 11500000, guid: fb4b2a335bf11cd42833e03ff2dad420, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _textBox: {fileID: 55860343}
   _choiceHolder: {fileID: 1821867405}
   _fadeOut: {fileID: 2125037420}
   _text: {fileID: 970167543}
-  _playerChoseYes: 0
+  _playerChoseTruth: 0
+  _dialogue: []
+  _dialogueLie:
+  - "Emma: Ch\xE9ri, qu'est-ce qui ne va pas ? Tu as l'air soucieux."
+  - 'Antoine : Non, rien de particulier. Je voulais juste te parler d''un truc.'
+  - 'Emma: Ok, de quoi s''agit-il ?'
+  - "Antoine : Pour \xEAtre bien honn\xEAte avec toi, ton ami, Chris. Je sais qu'il
+    est important pour toi, mais je ne me sens pas \xE0 l'aise quand tu passes du
+    temps avec lui."
+  - 'Emma: Pourquoi pas ? Chris est un ami depuis longtemps.'
+  - "Antoine : Je ne veux juste pas que tu sois avec lui, il y a quelque chose dans
+    sa fa\xE7on d'agir qui me d\xE9range. Je n'ai pas confiance en lui."
+  - "Emma: C'est injuste, tu ne le connais pas vraiment, tu ne l'as jamais donn\xE9
+    une chance."
+  - "Antoine : Tu ne sais pas ce que je vois., je veux te prot\xE9ger. Je ne veux
+    pas que tu sois influenc\xE9e n\xE9gativement par quelqu'un qui ne me semble
+    pas fiable."
+  - "Emma: Tu sais, Chris n'a rien fait de mal. Il m'\xE9coute, me soutient, me rend
+    heureuse. Il est plus qu'un ami, il est comme un fr\xE8re pour moi."
+  - "Antoine : Je voudrais que tu me dises quand tu es avec lui et que tu \xE9vites
+    de le voir le plus possible. Je ne veux pas que tu sois bless\xE9e, tu es trop
+    importante pour moi."
+  - 'Emma: D''accord.'
 --- !u!224 &924299012 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 4335061921699447498, guid: 4267a1938391a2f419d5390c7626c314,
@@ -1021,10 +1043,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 970167539}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 94314a37c93ed8d459457fc25e451c80, type: 3}
+  m_Script: {fileID: 11500000, guid: 84ee5f8a3d591464f9c4110b7c2f499f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _typeWriterDelaySpeed: 0.03
+  _typeWriterDelaySpeed: 0.05
   IsTyping: 0
 --- !u!1 &992482909
 GameObject:
@@ -1245,7 +1267,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 783520396}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: Shop.DialogueManager, Assembly-CSharp
         m_MethodName: AssignPlayerChoice
         m_Mode: 6
@@ -1455,7 +1477,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 783520396}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: Shop.DialogueManager, Assembly-CSharp
         m_MethodName: AssignPlayerChoice
         m_Mode: 6

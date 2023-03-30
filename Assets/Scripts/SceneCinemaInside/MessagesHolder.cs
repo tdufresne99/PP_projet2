@@ -134,7 +134,7 @@ namespace Cinema
 
         private void NextScene()
         {
-            SceneManager.LoadScene(3);
+            SceneManager.LoadScene("BFHouse");
         }
 
         private void ToggleQuestionsChoices(bool multipleChoices)

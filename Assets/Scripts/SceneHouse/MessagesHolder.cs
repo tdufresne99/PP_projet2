@@ -115,7 +115,7 @@ namespace BFHouse
 
         private void NextScene()
         {
-            SceneManager.LoadScene(1);
+            SceneManager.LoadScene("Shopping");
         }
 
         public int Index

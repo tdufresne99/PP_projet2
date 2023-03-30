@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 
-namespace Shop
+namespace Shopping
 {
     public class Choice : MonoBehaviour
     {
