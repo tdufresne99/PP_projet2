@@ -2077,7 +2077,7 @@ MonoBehaviour:
     type: 3}
   _spriteEndingChris: {fileID: 21300000, guid: 1ab4d99d449f3f247bf474a6385d4920, type: 3}
   _spriteEndingAlone: {fileID: 21300000, guid: 6f2c7e7034712e54d80073a9715d69bd, type: 3}
-  _spriteEndingFight: {fileID: 21300000, guid: b3cd9944f7a319042838617b3e4db8e4, type: 3}
+  _spriteEndingFight: {fileID: 21300000, guid: b38db0283d55b504ab68e86af32a8d98, type: 3}
 --- !u!1 &1456476457
 GameObject:
   m_ObjectHideFlags: 0
@@ -2244,7 +2244,7 @@ AudioSource:
   m_PlayOnAwake: 1
   m_Volume: 0.1
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
