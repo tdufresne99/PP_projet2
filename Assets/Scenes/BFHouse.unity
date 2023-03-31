@@ -790,27 +790,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _fadeOut: {fileID: 2125037420}
   _text: {fileID: 970167543}
-  _dialogue:
-  - "Emma: Ch\xE9ri, qu'est-ce qui ne va pas ? Tu as l'air soucieux."
-  - 'Antoine : Non, rien de particulier. Je voulais juste te parler d''un truc.'
-  - 'Emma: Ok, de quoi s''agit-il ?'
-  - "Antoine : Pour \xEAtre bien honn\xEAte avec toi, ton ami, Chris. Je sais qu'il
-    est important pour toi, mais je ne me sens pas \xE0 l'aise quand tu passes du
-    temps avec lui."
-  - 'Emma: Pourquoi pas ? Chris est un ami depuis longtemps.'
-  - "Antoine : Je ne veux juste pas que tu sois avec lui, il y a quelque chose dans
-    sa fa\xE7on d'agir qui me d\xE9range. Je n'ai pas confiance en lui."
-  - "Emma: C'est injuste, tu ne le connais pas vraiment, tu ne lui as jamais donn\xE9
-    une chance."
-  - "Antoine : Tu ne sais pas ce que je vois, je veux te prot\xE9ger. Je ne veux
-    pas que tu sois influenc\xE9e n\xE9gativement par quelqu'un qui ne me semble
-    pas fiable."
-  - "Emma: Tu sais, Chris n'a rien fait de mal. Il m'\xE9coute, me soutient, me rend
-    heureuse. Il est plus qu'un ami, il est comme un fr\xE8re pour moi."
-  - "Antoine : Je voudrais que tu me dises quand tu es avec lui et que tu \xE9vites
-    de le voir le plus possible. Je ne veux pas que tu sois bless\xE9e, tu es trop
-    importante pour moi."
-  - 'Emma: D''accord...'
 --- !u!224 &924299012 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 4335061921699447498, guid: 4267a1938391a2f419d5390c7626c314,
@@ -1143,6 +1122,7 @@ GameObject:
   - component: {fileID: 2028567649}
   - component: {fileID: 2028567648}
   - component: {fileID: 2028567647}
+  - component: {fileID: 2028567650}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -1224,6 +1204,42 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2028567650
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2028567646}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a79441f348de89743a2939f4d699eac1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_RenderShadows: 1
+  m_RequiresDepthTextureOption: 2
+  m_RequiresOpaqueTextureOption: 2
+  m_CameraType: 0
+  m_Cameras: []
+  m_RendererIndex: -1
+  m_VolumeLayerMask:
+    serializedVersion: 2
+    m_Bits: 1
+  m_VolumeTrigger: {fileID: 0}
+  m_VolumeFrameworkUpdateModeOption: 2
+  m_RenderPostProcessing: 0
+  m_Antialiasing: 0
+  m_AntialiasingQuality: 2
+  m_StopNaN: 0
+  m_Dithering: 0
+  m_ClearDepth: 1
+  m_AllowXRRendering: 1
+  m_UseScreenCoordOverride: 0
+  m_ScreenSizeOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_ScreenCoordScaleBias: {x: 0, y: 0, z: 0, w: 0}
+  m_RequiresDepthTexture: 0
+  m_RequiresColorTexture: 0
+  m_Version: 2
 --- !u!1 &2125037420 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7004631263107770837, guid: 1b6b84ffe1079c147b5f944538644e3d,

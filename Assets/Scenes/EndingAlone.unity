@@ -760,8 +760,8 @@ MonoBehaviour:
   _playerChoseTruth: 0
   _dialogue:
   - "Narrateur : Les mensonges ont des cons\xE9quences dans notre vie."
-  - "Narrateur :  Emma a d\xE9cid\xE9 de mentir dans son couple"
-  - 'Narrateur :  Pour cette raison elle finira seule, sans personne pour l''aider'
+  - "Narrateur :  Emma, elle, a d\xE9cid\xE9 de mentir dans son couple."
+  - 'Narrateur :  Pour cette raison elle finira seule, sans personne pour l''aider.'
 --- !u!114 &1160018210
 MonoBehaviour:
   m_ObjectHideFlags: 0

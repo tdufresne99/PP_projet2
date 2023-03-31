@@ -159,8 +159,8 @@ MonoBehaviour:
   _text: {fileID: 852165059}
   _playerChoseTruth: 0
   _dialogue:
-  - "Narrateur :  Emma a essay\xE9 d'\xEAtre en couple avec les deux hommes"
-  - "Narrateur : Ce n'\xE9tait pas une bonne, car ils ont commenc\xE9 \xE0 ce battre "
+  - "Narrateur :  Emma a essay\xE9 d'\xEAtre en couple avec les deux hommes."
+  - "Narrateur : Ce n'\xE9tait pas une bonne, car ils ont commenc\xE9 \xE0 se battre "
   - "Narrateur :  Peut \xEAtre si elle avait un meilleur choix, cela aurait \xE9t\xE9
     diff\xE9rent..."
 --- !u!4 &326255055

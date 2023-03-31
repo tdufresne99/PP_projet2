@@ -159,7 +159,8 @@ MonoBehaviour:
   _text: {fileID: 550519044}
   _playerChoseTruth: 0
   _dialogue:
-  - "Narrateur :  Emma a d\xE9cid\xE9 de dire la v\xE9rit\xE9 dans son couple."
+  - "Narrateur :  Emma a d\xE9cid\xE9 de dire la v\xE9rit\xE9 dans son couple, car
+    il est mieux de ne pas cacher ce qui est important."
   - 'Narrateur :  Pour cette raison elle restera en couple avec lui.'
   - "Narrateur :  Jusqu'\xE0 ce qu'elle r\xE9alise qu'il faut qu'elle parte..."
 --- !u!4 &188181110

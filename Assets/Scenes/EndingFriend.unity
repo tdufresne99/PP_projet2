@@ -835,9 +835,9 @@ MonoBehaviour:
   _text: {fileID: 1881327782}
   _playerChoseTruth: 0
   _dialogue:
-  - "Narrateur :  Emma a d\xE9cid\xE9 de partir avec Chris"
-  - 'Narrateur : Elle vivra une merveilleuse vie avec lui'
-  - "Narrateur :  Tr\xE8s bon choix Emma"
+  - "Narrateur :  Emma a d\xE9cid\xE9 de partir avec Chris, un homme fiable."
+  - 'Narrateur : Elle vivra une meilleure vie avec lui.'
+  - "Narrateur :  Tr\xE8s bon choix Emma."
 --- !u!4 &1187666247
 Transform:
   m_ObjectHideFlags: 0

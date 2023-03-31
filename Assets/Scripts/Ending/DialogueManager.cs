@@ -24,7 +24,7 @@ namespace Ending
             "Emma: Pourquoi pas ? Chris est un ami depuis longtemps.",
             "Antoine : Je ne veux juste pas que tu sois avec lui, il y a quelque chose dans sa façon d'agir qui me dérange. Je n'ai pas confiance en lui.",
             "Emma: C'est injuste, tu ne le connais pas vraiment, tu ne l'as jamais donné une chance.",
-            "Antoine : Tu ne sais pas ce que je vois., je veux te protéger. Je ne veux pas que tu sois influencée négativement par quelqu'un qui ne me semble pas fiable.",
+            "Antoine : Tu ne sais pas ce que je vois, je veux te protéger. Je ne veux pas que tu sois influencée négativement par quelqu'un qui ne me semble pas fiable.",
             "Emma: Tu sais, Chris n'a rien fait de mal. Il m'écoute, me soutient, me rend heureuse. Il est plus qu'un ami, il est comme un frère pour moi.",
             "Antoine : Je voudrais que tu me dises quand tu es avec lui et que tu évites de le voir le plus possible. Je ne veux pas que tu sois blessée, tu es trop importante pour moi.",
             "Emma: D'accord.",

@@ -25,12 +25,12 @@ namespace AfterCoffeeYes
 
         private string[] _dialogueTruth = new string[]
         {
-            "Emma : Eh bien, j'ai accepté de sortir avec mon meilleur ami et j'ai décidé de mettre fin à notre relation.",
+            "Emma : Eh bien, j'ai accepté de sortir avec Chris et j'ai décidé de mettre fin à notre relation.",
             "Antoine : Quoi ? Tu es sérieuse ? Tu ne me dis ça que maintenant ? Tu es vraiment égoïste !",
             "Emma : Je suis désolée, je ne voulais pas te blesser. Mais c'était une décision difficile à prendre.",
             "Antoine : Tu ne mérites pas mon amour ni ma compréhension. Je te souhaite simplement de souffrir autant que tu m'as fait souffrir.",
             "Emma : Je comprends ta réaction, mais sache que je t'aime toujours. Cette relation n'a rien à voir avec mes sentiments pour toi.",
-            "Antoine : Tu ne peux pas avoir le beurre et l'argent du beurre. Tu es en train de détruire notre amour pour un ami de passage. Tu vas regretter ton choix un jour.",
+            "Antoine : Tu es en train de détruire notre amour pour un ami de passage. Tu vas regretter ton choix un jour.",
             "Emma : Je suis désolée que tu penses ainsi. J'espère que tu trouveras bientôt la paix et que tu pourras me pardonner un jour.",
             "Antoine : Je ne sais pas si un jour je pourrais te pardonner. En attendant, je te souhaite tout le malheur du monde.",
         };

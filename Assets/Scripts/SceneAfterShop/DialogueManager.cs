@@ -24,7 +24,7 @@ namespace AfterShop
             "Emma : Avec Chris.",
             "Antoine : Chris ?! Je t'ai dit que je ne voulais pas que tu le revois et que même si tu devais absolument le voir, je t'ai que je voulais que tu me le dises !",
             "Emma : Je suis désolée, je ne voulais pas te contrarier. Mais je voulais être honnête avec toi et te dire la vérité.",
-            "Antoine : Je suis content que tu sois honnête avec moi. Mais je ne veux pas que tu le revois.",
+            "Antoine : Je suis content que tu sois honnête. Mais je ne veux pas que tu le revois.",
             "Emma : Je suis vraiment désolée, promis. J'espère que tu peux me pardonner.",
             "Antoine : Bien sûr, je te pardonne, puisque tu me dis que tu ne vas pas le revoir...",
         };
