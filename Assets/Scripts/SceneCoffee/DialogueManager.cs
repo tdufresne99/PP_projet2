@@ -125,11 +125,11 @@ namespace Coffee
         {
             if(DecisionManager.Instance.SaidYesToChris)
             {
-                SceneManager.LoadScene(8);
+                SceneManager.LoadScene("AfterCoffeeYes");
             }
             else
             {
-                SceneManager.LoadScene(9);
+                SceneManager.LoadScene("AfterCoffeeNo");
             }
         }
 
