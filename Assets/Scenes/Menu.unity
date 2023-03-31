@@ -179,17 +179,17 @@ PrefabInstance:
     - target: {fileID: 7004631263107770833, guid: 1b6b84ffe1079c147b5f944538644e3d,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 1
+      value: 1.1
       objectReference: {fileID: 0}
     - target: {fileID: 7004631263107770833, guid: 1b6b84ffe1079c147b5f944538644e3d,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 1
+      value: 1.1
       objectReference: {fileID: 0}
     - target: {fileID: 7004631263107770833, guid: 1b6b84ffe1079c147b5f944538644e3d,
         type: 3}
       propertyPath: m_LocalScale.z
-      value: 1
+      value: 1.1
       objectReference: {fileID: 0}
     - target: {fileID: 7004631263107770833, guid: 1b6b84ffe1079c147b5f944538644e3d,
         type: 3}
@@ -308,7 +308,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 257, y: 115.5}
+  m_AnchoredPosition: {x: 119, y: 115.5}
   m_SizeDelta: {x: 429.4, y: 160}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &177309244
@@ -331,7 +331,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Emma
+  m_text: "Pour \xEAtre bien honn\xEAte avec toi"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 977b0e18ce6f2534386ff38748fcc795, type: 2}
   m_sharedMaterial: {fileID: 7810640632151457032, guid: 977b0e18ce6f2534386ff38748fcc795,
@@ -359,8 +359,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 115
-  m_fontSizeBase: 115
+  m_fontSize: 95.1
+  m_fontSizeBase: 95.1
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -395,7 +395,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: 0, y: -193.29149, z: -516.5267, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -448,7 +448,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 262.7, y: -350}
+  m_AnchoredPosition: {x: 375, y: -350}
   m_SizeDelta: {x: 400, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &291545452
@@ -815,7 +815,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 262.7, y: -220}
+  m_AnchoredPosition: {x: 375, y: -220}
   m_SizeDelta: {x: 400, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &316097405
@@ -988,7 +988,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 262.7, y: -90}
+  m_AnchoredPosition: {x: 375, y: -90}
   m_SizeDelta: {x: 400, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &536320326
@@ -1526,17 +1526,17 @@ PrefabInstance:
     - target: {fileID: 7004631263107770833, guid: 54576ed92578c4242abc9824f57d1e30,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 1
+      value: 1.1
       objectReference: {fileID: 0}
     - target: {fileID: 7004631263107770833, guid: 54576ed92578c4242abc9824f57d1e30,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 1
+      value: 1.1
       objectReference: {fileID: 0}
     - target: {fileID: 7004631263107770833, guid: 54576ed92578c4242abc9824f57d1e30,
         type: 3}
       propertyPath: m_LocalScale.z
-      value: 1
+      value: 1.1
       objectReference: {fileID: 0}
     - target: {fileID: 7004631263107770833, guid: 54576ed92578c4242abc9824f57d1e30,
         type: 3}
@@ -1596,6 +1596,11 @@ PrefabInstance:
     - target: {fileID: 7004631263107770833, guid: 54576ed92578c4242abc9824f57d1e30,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7004631263107770835, guid: 54576ed92578c4242abc9824f57d1e30,
+        type: 3}
+      propertyPath: m_Color.a
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7004631263107770837, guid: 54576ed92578c4242abc9824f57d1e30,
@@ -1671,7 +1676,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Cr\xE9dit"
+  m_text: "Cr\xE9dits"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 6934530960ca4364fb3b6f40e021d7b9, type: 2}
   m_sharedMaterial: {fileID: -4585818573214219609, guid: 6934530960ca4364fb3b6f40e021d7b9,

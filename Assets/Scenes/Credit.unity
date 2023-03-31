@@ -179,17 +179,17 @@ PrefabInstance:
     - target: {fileID: 7004631263107770833, guid: 1b6b84ffe1079c147b5f944538644e3d,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 1
+      value: 1.1
       objectReference: {fileID: 0}
     - target: {fileID: 7004631263107770833, guid: 1b6b84ffe1079c147b5f944538644e3d,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 1
+      value: 1.1
       objectReference: {fileID: 0}
     - target: {fileID: 7004631263107770833, guid: 1b6b84ffe1079c147b5f944538644e3d,
         type: 3}
       propertyPath: m_LocalScale.z
-      value: 1
+      value: 1.1
       objectReference: {fileID: 0}
     - target: {fileID: 7004631263107770833, guid: 1b6b84ffe1079c147b5f944538644e3d,
         type: 3}
@@ -541,6 +541,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SaidYesToChris: 1
   ToldTheTruth: 1
+  EndingAntoine: 0
+  EndingChris: 0
+  EndingAlone: 0
+  EndingFight: 0
 --- !u!4 &312512816
 Transform:
   m_ObjectHideFlags: 0
@@ -1056,17 +1060,17 @@ PrefabInstance:
     - target: {fileID: 7004631263107770833, guid: 54576ed92578c4242abc9824f57d1e30,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 1
+      value: 1.1
       objectReference: {fileID: 0}
     - target: {fileID: 7004631263107770833, guid: 54576ed92578c4242abc9824f57d1e30,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 1
+      value: 1.1
       objectReference: {fileID: 0}
     - target: {fileID: 7004631263107770833, guid: 54576ed92578c4242abc9824f57d1e30,
         type: 3}
       propertyPath: m_LocalScale.z
-      value: 1
+      value: 1.1
       objectReference: {fileID: 0}
     - target: {fileID: 7004631263107770833, guid: 54576ed92578c4242abc9824f57d1e30,
         type: 3}
