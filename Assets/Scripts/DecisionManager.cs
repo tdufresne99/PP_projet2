@@ -19,4 +19,9 @@ public class DecisionManager : MonoBehaviour
 
     public bool SaidYesToChris;
     public bool ToldTheTruth;
+
+    public bool EndingAntoine = false;
+    public bool EndingChris = false;
+    public bool EndingAlone = false;
+    public bool EndingFight = false;
 }

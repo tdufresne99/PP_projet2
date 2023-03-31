@@ -9,11 +9,7 @@ public class MenuStart : MonoBehaviour
 
     void Start()
     {
-        if(DecisionManager.Instance != null) 
-        {
-            Destroy(DecisionManager.Instance.gameObject);
-            DecisionManager.Instance = null;
-        }
+        
     }
 
     public void StartGame()

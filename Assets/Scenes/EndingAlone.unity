@@ -718,6 +718,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1160018208}
   - component: {fileID: 1160018209}
+  - component: {fileID: 1160018210}
   m_Layer: 0
   m_Name: SceneAction
   m_TagString: Untagged
@@ -761,6 +762,18 @@ MonoBehaviour:
   - "Narrateur : Les mensonges ont des cons\xE9quences dans notre vie."
   - "Narrateur :  Emma a d\xE9cid\xE9 de mentir dans son couple"
   - 'Narrateur :  Pour cette raison elle finira seule, sans personne pour l''aider'
+--- !u!114 &1160018210
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1160018206}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bdfa917d16fd2aa44b7ff89b32fc4560, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1371838264
 PrefabInstance:
   m_ObjectHideFlags: 0
