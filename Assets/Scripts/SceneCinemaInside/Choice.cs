@@ -21,6 +21,7 @@ namespace Cinema
         {
             if (_messagesHolderCS.clickable) 
             {
+                SoundManager.Instance.PlaySFX(SoundManager.Instance.MsgSent);
                 if(_messagesHolderCS.Index == 0) _messagesHolderCS.ShowAnswer();
                 else _messagesHolderCS.StartAnswerSlide();
 

@@ -21,6 +21,8 @@ namespace AfterCoffeeNo
         private IEnumerator CoroutineTypeWriter()
         {
             IsTyping = true;
+            SoundManager.Instance.PlaySoundTrack(SoundManager.Instance.Typing);
+
             _textField.text = "";
             foreach (char c in _line)
             {
@@ -28,10 +30,14 @@ namespace AfterCoffeeNo
                 yield return new WaitForSecondsRealtime(_typeWriterDelaySpeed);
             }
             IsTyping = false;
+            SoundManager.Instance.StopSoundTrack();
+
         }
         public void ChangeText(string newText)
         {
             IsTyping = false;
+            SoundManager.Instance.StopSoundTrack();
+
             _line = newText;
             StopAllCoroutines();
             StartCoroutine(CoroutineTypeWriter());
@@ -40,6 +46,8 @@ namespace AfterCoffeeNo
         public void StopTextAnim()
         {
             IsTyping = false;
+            SoundManager.Instance.StopSoundTrack();
+
             StopAllCoroutines();
             _textField.text = _line;
         }

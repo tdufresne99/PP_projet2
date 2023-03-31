@@ -59,7 +59,7 @@ namespace Shopping
 
         public void NextScene()
         {
-            SceneManager.LoadScene(6);
+            SceneManager.LoadScene("AfterShopping");
         }
     }
 }

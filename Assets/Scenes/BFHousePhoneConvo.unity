@@ -1475,7 +1475,7 @@ PrefabInstance:
     - target: {fileID: 288059981701572289, guid: 08ecf635d6d944642a5be2dcb4b7f754,
         type: 3}
       propertyPath: m_fontStyle
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 288059981701572289, guid: 08ecf635d6d944642a5be2dcb4b7f754,
         type: 3}
@@ -1840,7 +1840,7 @@ MonoBehaviour:
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 1
+  m_fontStyle: 2
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
@@ -2480,7 +2480,7 @@ PrefabInstance:
     - target: {fileID: 288059981701572289, guid: 08ecf635d6d944642a5be2dcb4b7f754,
         type: 3}
       propertyPath: m_fontStyle
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 288059981701572289, guid: 08ecf635d6d944642a5be2dcb4b7f754,
         type: 3}

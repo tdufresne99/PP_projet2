@@ -82,6 +82,7 @@ namespace Cinema
 
         private void ShowNextQuestion()
         {
+            SoundManager.Instance.PlaySFX(SoundManager.Instance.Notification);
             _questionBoxes[_index].SetActive(true);
 
             if (_index < _questionBoxes.Length - 1) clickable = true;

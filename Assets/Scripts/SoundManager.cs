@@ -5,31 +5,30 @@ using UnityEngine;
 [RequireComponent(typeof(AudioSource))]
 public class SoundManager : MonoBehaviour
 {
-    public AudioClip _musique;
-    public AudioClip _walking;
-    public AudioClip _notification;
-    public AudioClip _startMovie;
-    public AudioClip _fight;
-    public AudioClip _btnStartGame;
-    public AudioClip _btn;
-    public AudioClip _typing;
+    public AudioClip Musique;
+    public AudioClip Walking;
+    public AudioClip Notification;
+    public AudioClip StartMovie;
+    public AudioClip Fight;
+    public AudioClip BtnStartGame;
+    public AudioClip Btn;
+    public AudioClip Typing;
+    public AudioClip MsgSent;
 
     private static SoundManager _instance;
     public static SoundManager Instance { get => _instance; set => _instance = value; }
 
-    private AudioSource _audioSource;
+    [SerializeField] private AudioSource _audioSource;
     void Awake()
     {
         if (_instance == null) _instance = this;
-        else Destroy(this);
+        else Destroy(gameObject);
 
-        DontDestroyOnLoad(gameObject);
-
-        _audioSource = GetComponent<AudioSource>();
+        DontDestroyOnLoad(gameObject); 
         if (_audioSource == null) Debug.LogWarning("no AudioSource found...");
         else
         {
-            _audioSource.clip = _musique;
+            _audioSource.clip = Musique;
             _audioSource.Play();
         }
     }
@@ -37,5 +36,15 @@ public class SoundManager : MonoBehaviour
     public void PlaySFX(AudioClip clip)
     {
         _audioSource.PlayOneShot(clip);
+    }
+    public void PlaySoundTrack(AudioClip clip)
+    {
+        _audioSource.clip = clip;
+        _audioSource.loop = true;
+        _audioSource.Play();
+    }
+    public void StopSoundTrack()
+    {
+        _audioSource.Stop();
     }
 }

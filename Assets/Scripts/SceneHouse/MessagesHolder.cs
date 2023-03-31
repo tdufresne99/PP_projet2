@@ -85,6 +85,7 @@ namespace BFHouse
 
         private void ShowNextQuestion()
         {
+            SoundManager.Instance.PlaySFX(SoundManager.Instance.Notification);
             _questionBoxes[_index].SetActive(true);
 
             var choiceText = _singleChoice.GetComponentInChildren<TextMeshProUGUI>();

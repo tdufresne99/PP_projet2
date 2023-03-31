@@ -54,7 +54,7 @@ namespace BFHouse
 
         public void NextScene()
         {
-            SceneManager.LoadScene(4);
+            SceneManager.LoadScene("BFHousePhoneConvo");
         }
     }
 }
